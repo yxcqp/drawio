@@ -1,9 +1,77 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.2.7">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.2.10">
   <diagram name="ページ1" id="Iz4XJd-CKQ0DPBx8zl7v">
-    <mxGraphModel>
+    <mxGraphModel dx="1387" dy="754" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="u2aib-c4_udxYft3tyjG-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="u2aib-c4_udxYft3tyjG-1" target="u2aib-c4_udxYft3tyjG-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="280" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u2aib-c4_udxYft3tyjG-1" value="ルートディレクトリとなるパスを指定" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="u2aib-c4_udxYft3tyjG-3" value="配下のファイルを取得" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="u2aib-c4_udxYft3tyjG-5" value="ルートディレクトリと配下のファイル名を結合" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="u2aib-c4_udxYft3tyjG-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="u2aib-c4_udxYft3tyjG-7" target="u2aib-c4_udxYft3tyjG-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="u2aib-c4_udxYft3tyjG-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="u2aib-c4_udxYft3tyjG-7" target="u2aib-c4_udxYft3tyjG-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="u2aib-c4_udxYft3tyjG-7" value="ディレクトリか判別" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="330" y="280" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="u2aib-c4_udxYft3tyjG-8" value="配下のファイルを取得" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="u2aib-c4_udxYft3tyjG-9" value="2階層目ディレクトリと配下のファイル名を結合" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="560" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="u2aib-c4_udxYft3tyjG-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="u2aib-c4_udxYft3tyjG-11" target="u2aib-c4_udxYft3tyjG-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="u2aib-c4_udxYft3tyjG-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="u2aib-c4_udxYft3tyjG-11" target="u2aib-c4_udxYft3tyjG-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="u2aib-c4_udxYft3tyjG-11" value="ディレクトリか判別" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="330" y="640" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="u2aib-c4_udxYft3tyjG-12" value="配下のファイル名でNotionに見出し1を出力" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="u2aib-c4_udxYft3tyjG-14" value="配下のファイルを取得" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="760" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="u2aib-c4_udxYft3tyjG-15" value="配下のファイル名でNotionに見出し2を出力" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="840" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="u2aib-c4_udxYft3tyjG-16" value="ファイルか判別" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="520" y="760" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="u2aib-c4_udxYft3tyjG-17" value="ファイルか判別" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="520" y="400" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="u2aib-c4_udxYft3tyjG-24" value="3階層目ディレクトリと配下のファイル名を結合" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="920" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="u2aib-c4_udxYft3tyjG-25" value="ファイルか判別" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="330" y="1000" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="u2aib-c4_udxYft3tyjG-26" value="urlファイルからURLを抜き出す" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="1240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="u2aib-c4_udxYft3tyjG-27" value="urlファイルか判別" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="330" y="1120" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="u2aib-c4_udxYft3tyjG-28" value="NotionにURLメンションとして、かつリストとして書き出す" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="1320" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
